@@ -70,8 +70,10 @@ figcaption span{
 }
 .container{
 	margin-top: 40px;
+    width: 60%;
+    margin: auto;
 }
-.publisher{
+/*.publisher{
 	color: #121212;
 	text-align: center;
 	width: 700px;
@@ -93,4 +95,104 @@ figcaption span{
 	display: inline-block;
     color: black;
     justify-content: center;
+}*/
+
+/*.main-section {
+    display: inline;
+}
+
+.main-section .article {
+	display: inline-block;
+	width: 50%;
+}
+
+.main-section .sidebar {
+	display: inline-block;
+    width: 30%;
+    float: right;
+}*/
+
+.published-date {
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+}
+
+.icons-social ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.remainder {
+    text-align: center;
+    margin: 20px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+
+.stanford-video {
+    margin: 20px 0px;
+}
+
+.telescope-image {
+    margin: 30px 0px;
+}
+
+.telescope-image img {
+    width: 600px;
+}
+
+.more-comments {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+ul.social-media li {
+    list-style: none;
+    display: inline-block;
+}
+
+.middle-section {
+    background: url('images/theory.png');
+}
+
+.main-section {
+    display: flex;
+}
+
+.article {
+    width: 600px;
+}
+
+.sidebar {
+    width: 210px;
+}
+
+.story-heading {
+    margin: 10px 0;
+}
+
+.more-content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.more-storeis {
+    width: 70%;
+    margin: 0px 20px;
+}
+
+.articles-images {
+    display: flex;
+}
+
+.single-story {
+    width: 270px;
+}
+
+.single-story figure img {
+    height: 181px;
 }

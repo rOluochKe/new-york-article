@@ -39,6 +39,7 @@
 }
 .article-title{
 	margin-top: 40px;
+	margin-left: -120px;
 }
 .article-title h2{
 	color: #121212;
@@ -66,4 +67,30 @@ figcaption span{
 	color: #888;
 	text-align: left;
     font-size: small;
+}
+.container{
+	margin-top: 40px;
+}
+.publisher{
+	color: #121212;
+	text-align: center;
+	width: 700px;
+}
+.author-name a{
+	text-decoration: underline;
+	color: #333;
+	cursor: pointer;
+}
+.publish-date{
+	width: 700px;
+	
+}
+.publish-date ul{
+	list-style: none;
+    display: inline;
+}
+.publish-date ul li{
+	display: inline-block;
+    color: black;
+    justify-content: center;
 }

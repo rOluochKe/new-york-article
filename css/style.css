@@ -37,6 +37,10 @@
 .menu-right div button{
 	display: inline-block !important;
 }
+.author-name a{
+font-weight: 700;
+color: #333;
+}
 .article-title{
 	margin-top: 40px;
 	margin-left: -120px;
@@ -117,10 +121,21 @@ figcaption span{
     justify-content: space-between;
     width: 590px;
 }
+.date a{
+	color: #333;
+}
 
 .icons-social ul li {
     list-style: none;
     display: inline-block;
+    padding: 0px 15px;
+}
+.icons-social a{
+	color: black;
+}
+.article p a:not(.published-0n a){
+	color: #326891;
+    text-decoration: underline;
 }
 
 .remainder {
@@ -142,11 +157,41 @@ figcaption span{
 .telescope-image img {
     width: 600px;
 }
+.published-on{
+	color: #999;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.published-on a{
+	color: #999;
+	text-decoration: none;
+   }
 
 .more-comments {
     display: flex;
     justify-content: space-between;
     margin: 30px 0;
+}
+.comments{
+	width: 330px;
+    height: 56px;
+    margin: 10px 0px;
+    padding-right: 10px 16px 10px 0px;
+}
+.btn-comment{
+background-color: rgb(98, 136, 165);
+border: 1px solid rgb(50, 104, 145);
+border-radius: 3px;
+width: 100%;
+font-size: 14px;
+font-weight: 600px;
+padding: 10px 0px;
+color: white;
+margin-left: auto;
+margin-right: auto;
+vertical-align: center;
+cursor: pointer;
+
 }
 
 ul.social-media li {
@@ -222,5 +267,43 @@ ul.social-media li {
 .middle-parts{
 	width: 90%;
 	display: flex;
+	justify-content: space-between;
 	justify-content: wrap;
+}
+.middle-parts ul{
+	list-style: none;
+
+}
+.middle-parts div{
+	width: 18%;
+}
+.primary-footer{
+	align-items: center;
+	display: flex;
+	}
+.primary-footer a{
+	color: #333;
+	}
+.copyright{
+	padding: 0px 10px;
+}
+.copyright a{
+	margin: 10px 0px;
+}
+.account-links ul{
+	display: inline;
+}
+.account-links ul li{
+	display: inline-block;
+	padding:0px 10px;
+    list-style: none;
+
+}
+.account-links li a{
+	margin:10px 0px;
+	padding: 0;
+    
+}
+a{
+	text-decoration: none;
 }

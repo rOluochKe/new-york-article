@@ -381,10 +381,16 @@ ul.social-media li {
 
 .article {
     width: 600px;
+    
 }
 
 .sidebar {
     width: 210px;
+    margin: 30px;
+
+}
+.top-sidebar{
+    width: 180px;
     margin: 30px;
 }
 
@@ -392,6 +398,8 @@ ul.social-media li {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 18px;
     line-height: 24px;
+
+
 }
 
 .top-sidebar p {
@@ -424,6 +432,15 @@ button.sign-up {
     padding: 10px;
     margin: 0px;
 }
+.tuition-fee{
+    display: flex;
+}
+.tuition-fee p{
+    color: rgb(51, 51, 51);
+}
+.tuition-fee p:hover{
+    text-decoration: underline;
+}
 
 .middle-sidebar h5 {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -440,15 +457,25 @@ button.sign-up {
 
 .middle-sidebar ul li {
     list-style: none;
+    margin-bottom: 15px;
 }
 
 .middle-sidebar ul li div img {
     width: 75px;
     height: 75px;
+    margin-right: 5px;
 }
 
 .story-heading {
     margin: 10px 0;
+}
+.story-heading a{
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+}
+.story-heading a:hover{
+    text-decoration: underline;
 }
 
 .more-content {
@@ -465,19 +492,62 @@ button.sign-up {
 .articles-images, .editor-contents{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     width:875px;
 }
 
 .single-story {
-    width: 270px;
+    width: 272px;
+    margin-left: 10px;
 }
-
+.single-story figcaption{
+    width: 272px;
+    text-align: end;
+}
 .single-story figure img {
     height: 181px;
 }
+.single-story h2 a{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+}
+.single-story span {
+     font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25rem;
+    letter-spacing: 0.3px;
+    color: rgb(153, 153, 153);
+}
+.separator{
+    border:0.5px solid #333;
+}
 .editors-pick{
+    width: 852px;
 	margin-left: 75px;
+}
+.popular-articles{
+    display: flex;
+    justify-content: wrap;
+
+}
+.most-sidebar{
+    width: 315px;
+    margin-left: 20px;
+}
+.most-sidebar ul{
+list-style: none;
+}
+.most-sidebar li{
+    border-top: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+}
+.most-sidebar li a{
+    color: rgb(18, 18, 18);
+    font-size: 19px;
+    line-height: 23px;
+    text-decoration: none;
 }
 .footer{
 	width: 90%;

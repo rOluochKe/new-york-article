@@ -90,6 +90,7 @@ p.line-across {
     margin-bottom: 25px;
 }
 
+
 .author-name a {
     font-weight: 700;
     color: #333;
@@ -247,6 +248,59 @@ header {
 .article p a {
     color: #326891;
     text-decoration: underline;
+}
+.middle-section{
+    width: 945px;
+    height: 576px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+#theory-paragraph{
+    margin-top: -15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    color: #666;
+}
+.theory-years h3{
+    font-size: 16px !important;
+    line-height: 20px;
+}
+.theory-section{
+width: 23.5%;
+
+}
+.theory-section img{
+    width: 228px;
+    height: 163px;
+}
+
+.theory-section p{
+    width: 228px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #000000;
+    font-family: arial;
+}
+.separator-2{
+    width: 60px;
+    display: inline-block;
+    height: 1px;
+    margin: 15px 0 13px 0;
+    background-color: #000;
+
+}
+.author-name p{
+    font-family: arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    font-weight: 400;
 }
 
 p.published-on,
